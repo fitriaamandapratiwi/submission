@@ -80,7 +80,7 @@ def visualisasi_ketiga(true_df):
     st.pyplot(plt)
 
 # Load data
-true_df = pd.read_csv("true.csv")
+true_df = pd.read_csv("dashboard/true.csv")
 
 # Judul halaman
 st.title("Selamat Datang di Dashboard Sepedamu!🚴🏽‍♀️✨")
